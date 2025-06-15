@@ -1,0 +1,7 @@
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+psycopg2-binary==2.9.9 # For PostgreSQL
+redis==5.0.4 # For Redis
+elasticsearch==7.17.0 # Match version in docker-compose for compatibility
+neo4j==5.20.0 # For Neo4j
+pydantic==2.7.1
